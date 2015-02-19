@@ -309,6 +309,27 @@ h3.header {
 .most-popular .post-tile h3 a {
   font-size: 16px;
 }
+
+.blog-post-container #carousel > .carousel-inner img {
+  margin-top: -220px;
+}
+
+.blog-post-h2 {
+  margin-bottom: 30px;
+}
+
+.blog-post p {
+  color: #525252;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #727272;  
+}
+.blog-post h5 {
+  font-size: 25px;
+  color: #727272;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1199px) {
   .nav-list > li > a {
     font-size: 16px;
