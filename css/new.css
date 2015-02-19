@@ -137,7 +137,7 @@ div.input-group-addon {
 }
 
 .dropdown-menu {
-  min-width: 300px;
+  min-width: 280px;
 }
 
 .dropdown-menu > li a {
@@ -240,7 +240,7 @@ div.input-group-addon {
 }
 
 .search {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .social-contacts li {
@@ -314,6 +314,9 @@ h3.header {
     font-size: 16px;
     padding: 25px 0;
   }
+  .search {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 992px) {
   .post-tile {
@@ -327,6 +330,12 @@ h3.header {
   }
   .post-tile h4 {
     font-size: 16px;
+  }
+  .nav-list > li > a {
+    padding: 15px 0; 
+  }
+  .dropdown-menu {
+    min-width: 160px;
   }
 }
 
@@ -355,10 +364,5 @@ h3.header {
   .carousel-inner,
   .carousel-container {
     height: 300px;
-  }
-}
-@media (max-width: 480px) {
-  .nav-list > li > a {
-    padding: 15px 0;
   }
 }
