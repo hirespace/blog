@@ -8,6 +8,9 @@ li {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: #222222;
 }
+.mission {
+  color: #fff;
+}
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -230,7 +233,7 @@ div.input-group-addon {
   font-weight: bold;
 }
 .post-tile h3 a:hover {
-  color: #727272;
+  color: #525252;
   text-decoration :none;
 }
 .post-tile h4 {
@@ -489,11 +492,24 @@ h3.header {
   .next-prev-links div {
     width: 100%;
   }
+  .social-share {
+    top: 90px;
+  }
 }
 @media (max-width: 508px) {
   .carousel-inner,
   .carousel-container {
     height: 300px;
+  }
+  .social-share {
+    top: 60px;
+    width: 30px;
+  }
+  .social-share a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
   }
 }
 
