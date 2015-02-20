@@ -57,9 +57,9 @@
                     <div class="col-md-8">
                         <ul class="list-inline nav-list upper clearfix">
                             <li><a href="/tag/top-5">Top 5's</a></li>
-                            <li><a href="/tag/stories">Your stories</a></li>
+                            <li><a href="/tag/stories"><span class="hidden-xs">Your</span> stories</a></li>
                             <li><a href="/tag/reviews">Reviews</a></li>
-                            <li>
+                            <li class="hidden-xs">
                                 <a href="" data-toggle="dropdown">Category <i class="glyphicon glyphicon-chevron-down glyphicon-sm"></i></a>
                                 <ul class="dropdown-menu left-align" role="menu">
                                     <li>
@@ -85,7 +85,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="hidden-xs">
                                 <a href="/tag/reviews" data-toggle="dropdown">City <i class="glyphicon glyphicon-chevron-down glyphicon-sm"></i></a>
                                 <ul class="dropdown-menu left-align" role="menu">
                                     <li>
@@ -105,7 +105,7 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="col-md-4">
+                <div class="col-md-4 hidden-xs hidden-tablet">
                     <div class="input-group search">
                         <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
                         <input placeholder="Type here to search" type="text" class="form-control" data-bind="value: searchWord" id="searchField">
@@ -122,6 +122,10 @@
             <div class="col-md-8 bottom-med-margin">
                 <div class="well blog-post">
                     <h2 class="h1 blog-post-h2">7 Summer Party Paradises In London</h2>
+                    <div class="info clearfix">
+                        by Ed Poland
+                        <p class="post-date pull-right">12th February 2015</p>
+                    </div>
                     <div>
                         <p>Picture it: Condensation is trickling down your fingers from the sin-tinted Pimms in your hand; your sunglasses wash everything aglow with a warm, bronze hue; and you're surrounded by your coworkers, finally released from the office to have a good time together.</p>
 
@@ -275,6 +279,13 @@
                         </li>
                     </ul>
                 </div>
+
+                <div id="pinterest-widget" class="well bottom-med-margin">
+                    <h3 class="header">
+                        Hire Space on Pinterest
+                    </h3>
+                    <a data-pin-do="embedUser" href="https://www.pinterest.com/hirespace/"data-pin-scale-width="80" data-pin-scale-height="200" data-pin-board-width="400">Visit Hire Space's profile on Pinterest.</a>
+                </div>
             </div>
         </div>
     </div>
@@ -294,6 +305,7 @@
 
     <script type="text/javascript" src="scripts/jquery.js" ></script>
     <script type="text/javascript" src="scripts/bootstrap.js" ></script>
+    <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
 <!--     <script type="text/javascript" src="scripts/script.js" ></script> -->
 
 </body>

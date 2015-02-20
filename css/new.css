@@ -126,9 +126,9 @@ div.input-group-addon {
 .glyphicon-search:before {
   content: "\e003";
  }
- .glyphicon-chevron-down:before {
-    content: "\e114";
-  }
+.glyphicon-chevron-down:before {
+  content: "\e114";
+}
 .glyphicon.glyphicon-sm {
   font-size: 0.67em;
 }
@@ -316,6 +316,7 @@ h3.header {
 
 .blog-post-h2 {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .blog-post p {
@@ -328,6 +329,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-size: 25px;
   color: #727272;
   margin-bottom: 10px;
+}
+.info {
+  color: #b1b3b3;
+  border-bottom: 2px solid #f0f1f2;
+  font-weight: bold;
+}
+.post-date {
+  color: #b1b3b3;
 }
 
 @media (max-width: 1199px) {
@@ -386,4 +395,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   .carousel-container {
     height: 300px;
   }
+}
+
+#pinterest-widget > span {
+  box-shadow: none !important;
+  padding: 0 !important;
+  width: 100% !important; 
+}
+#pinterest-widget > span > span,
+#pinterest-widget > span > a {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+#pinterest-widget > span > span:first-child {
+  display:none !important;
 }
