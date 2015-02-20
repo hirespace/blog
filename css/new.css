@@ -169,7 +169,7 @@ div.input-group-addon {
 }
 .nav-list > li > a {
   display:block;
-  padding: 28px 5px;
+  padding: 15px 5px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -190,6 +190,10 @@ div.input-group-addon {
   background-color: #4e833c;
   color: #fff;
   text-decoration: none;
+}
+
+.search {
+  margin-top: 10px;
 }
 
 /* Post tiles */
@@ -238,11 +242,6 @@ div.input-group-addon {
 .post-tile.first .post-date {
   font-size: 16px;
 }
-
-.search {
-  margin-top: 25px;
-}
-
 .social-contacts li {
   width: 16.66666666667%;
   float:left;
@@ -322,30 +321,26 @@ h3.header {
 .blog-post p {
   color: #525252;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: #727272;  
-}
 .blog-post h5 {
   font-size: 25px;
   color: #727272;
   margin-bottom: 10px;
 }
 .info {
-  color: #b1b3b3;
-  border-bottom: 2px solid #f0f1f2;
+  color: #525252;
+  border-bottom: 2px solid #ececec;
   font-weight: bold;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
 }
-.post-date {
-  color: #b1b3b3;
+.info .post-date {
+  color: #939699;
 }
 
 @media (max-width: 1199px) {
   .nav-list > li > a {
     font-size: 16px;
-    padding: 25px 0;
-  }
-  .search {
-    margin-top: 20px;
+    padding: 15px 0;
   }
 }
 @media (max-width: 992px) {
@@ -360,9 +355,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   }
   .post-tile h4 {
     font-size: 16px;
-  }
-  .nav-list > li > a {
-    padding: 15px 0; 
   }
   .dropdown-menu {
     min-width: 160px;
@@ -388,6 +380,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   }
   .post-tile.first h3 {
     margin-bottom: 3px;
+  }
+  .blog-post .post-date {
+    float: none;
+    display:block;
   }
 }
 @media (max-width: 508px) {
