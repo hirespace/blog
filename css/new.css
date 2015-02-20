@@ -359,10 +359,12 @@ h3.header {
 }
 .next-prev-links div {
   margin-bottom: 8px;
+  width: 250px;
+  height: 100px; 
 }
 .next-prev-links .glyphicon {
   position: absolute;
-  top: 22%;
+  top: 25%;
   font-size: 22px;
 }
 .next-prev-links .glyphicon-chevron-right {
@@ -419,6 +421,12 @@ h3.header {
   .blog-post .post-date {
     float: none;
     display:block;
+  }
+  .next-prev-links a {
+    width: 40%;
+  }
+  .next-prev-links div {
+    width: 100%;
   }
 }
 @media (max-width: 508px) {
