@@ -393,6 +393,7 @@ h3.header {
   }
 }
 
+/*Pinterest*/
 #pinterest-widget > span {
   box-shadow: none !important;
   padding: 0 !important;
@@ -407,3 +408,9 @@ h3.header {
 #pinterest-widget > span > span:first-child {
   display:none !important;
 }
+
+/*Comments*/
+.nav-primary > ul > li.notification-menu.unread a.notification-container .notification-icon {
+  color: #4e833c;
+}
+.nav-primary > ul > li.notification-menu.unread a.notification-container .notification-icon
