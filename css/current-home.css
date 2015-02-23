@@ -2871,9 +2871,9 @@ h1#logo {
   .carousel {
     height: auto !important;
   }
-  #carousel > .carousel-inner img {
+/*  #carousel > .carousel-inner img {
     max-width: none !important;
-  }
+  }*/
   .modal {
     top: 10px;
     left: 10px;
@@ -2914,14 +2914,14 @@ h1#logo {
   #responsiveDiv {
     float: none;
   }
-  #carousel > .carousel-inner img {
+  /*#carousel > .carousel-inner img {
     max-width: none !important;
-  }
+  }*/
 }
 @media (min-width: 992px) {
-  #carousel > .carousel-inner img {
+  /*#carousel > .carousel-inner img {
     max-width: none !important;
-  }
+  }*/
 }
 @media (min-width: 1200px) {
   #carousel > .carousel-inner img {
