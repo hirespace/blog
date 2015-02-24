@@ -8,8 +8,12 @@ li {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: #222222;
 }
-.mission {
-  color: #fff;
+a {
+  text-decoration: underline;
+}
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a,
+.btn, .nav-list a, .tags a, .next-prev-links a, .popular-list a {
+  text-decoration : none;
 }
 .list-inline {
   padding-left: 0;
