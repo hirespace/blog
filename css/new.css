@@ -282,6 +282,7 @@ div.input-group-addon {
   text-decoration :none;
 }
 .post-tile h4 {
+  color: #525252;
   font-size: 18px;
   line-height: 1.6;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
