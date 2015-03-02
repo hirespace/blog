@@ -18,11 +18,27 @@ h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a,
 .btn, .nav-list a, .tags a, .next-prev-links a, .popular-list a {
   text-decoration : none;
 }
+.btn-default {
+    background-color: #d6d6d6;
+    border-bottom: solid 3px #bcbcbc;
+    color: #606060;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background-color: #d9d9d9;
+    border-bottom: solid 3px #bcbcbc;
+}
 .btn-group-lg > .btn,
 .btn-lg {
     font-size: 18px;
     line-height: 1.33333;
     padding: 10px 16px;
+}
+.btn-group-sm > .btn,
+.btn-sm {
+    padding: 3px 10px 1px 10px;
+    line-height: 18px;
 }
 .list-inline {
   padding-left: 0;
@@ -287,9 +303,6 @@ div.input-group-addon {
   line-height: 1.6;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.post-tile h4 a {
-  text-decoration: underline;
-}
 .post-tile .post-date {
   font-size: 14px;
   margin-bottom: 20px;
@@ -376,12 +389,12 @@ div.input-group-addon {
   background-color: #eb4047;
 }
 .awe-instagram {
-  background-color: #41618d;
+  background-color: #517fa4;
 }
 .awe-instagram:hover,
 .awe-instagram:active,
 .awe-instagram:focus {
-  background-color: #6181ad;
+  background-color: #719fc4;
 }
 .awe-google-plus {
   background-color: #d94a39;
