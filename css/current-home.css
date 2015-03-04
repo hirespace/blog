@@ -1939,18 +1939,18 @@ h1#logo span {
 .bottom-pad {
   padding-bottom: 40px;
 }
-header#header {
+#header {
   *zoom: 1;
   height: 52px;
   margin-bottom: 0;
 }
-header#header:before,
-header#header:after {
+#header:before,
+#header:after {
   display: table;
   content: "";
   line-height: 0;
 }
-header#header:after {
+#header:after {
   clear: both;
 }
 input.editaccountbox {
