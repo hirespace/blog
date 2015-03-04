@@ -1366,6 +1366,7 @@ input[type="number"] {
 .navbar-right {
   float: right;
   margin-right: -15px;
+  width: 250px;
 }
 @media (min-width: 992px) {
   .navbar-nav > li {
@@ -1941,7 +1942,7 @@ h1#logo span {
 header#header {
   *zoom: 1;
   height: 52px;
-  margin-bottom: -52px;
+  margin-bottom: 0;
 }
 header#header:before,
 header#header:after {

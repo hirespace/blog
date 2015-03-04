@@ -186,16 +186,24 @@ div.input-group-addon {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
 .carousel-inner, .carousel-container {
-  height: 450px;
+  height: 500px;
+}
+.carousel-container {
+  top: -52px;
+  margin-bottom: -52px;
 }
 
-.blog-post-container .carouselcover {
-  padding-top: 72px;
+.searchoverlaytitle h1 {
+  padding-top: 180px;
 }
+
 .blog-post-container .searchoverlaytitle h1 {
-  padding-top: 78px;
   line-height: 1.2;
+  font-size: 42px;
+  padding-top: 125px;
 }
  .blog-post-container .searchoverlay-author {
   color: #fff;
@@ -206,7 +214,7 @@ div.input-group-addon {
 }
 .blog-post-container .carousel-inner,
 .blog-post-container.carousel-container {
-  height: 450px;
+  height: 400px;
 }
 
 
@@ -422,10 +430,6 @@ h3.header {
   margin:0;
 }
 
-.blog-post-container .searchoverlaytitle h1 {
-    font-size: 45px;
-  }
-
 .blog-post-h2 {
   margin-bottom: 30px;
   margin-top: 0;
@@ -549,14 +553,27 @@ h3.header {
   #carousel > .carousel-inner img {
     max-width: 100% !important;
   }
-  .carousel-inner, .carousel-container {
-    height: 500px;
-  }
   .post-tile {
     height: 530px;
   }
+  .carousel-inner, .carousel-container {
+    height: 400px;
+  }
+  .searchoverlaytitle h1 {
+    padding-top: 130px;
+  }
+  .blog-post-container .carousel-inner,
+  .blog-post-container.carousel-container {
+    height: 350px;
+  }
+  .blog-post-container .searchoverlaytitle h1 {
+    padding-top: 125px;
+  }
 }
 @media (max-width: 992px) {
+  .blog-post-container .searchoverlaytitle h1 {
+    font-size: 36px;
+  }
   .post-tile {
     height: 475px;
   }
@@ -618,7 +635,6 @@ h3.header {
   }
   .blog-post-container .searchoverlaytitle h1 {
     font-size: 30px;
-    padding-top: 30px;
   }
   .blog-post-container .searchoverlaytitle {
     margin-top: 10px;
@@ -648,6 +664,9 @@ h3.header {
 }
 
 @media (max-width: 508px) {
+  .searchoverlaytitle {
+    margin-top: 0;
+  }
   .post-tile .post-image{
     height: 170px;
   }
@@ -665,9 +684,19 @@ h3.header {
   }
 }
 
-@media (max-width: 338px) {
-  .navbar-brand {
-    width: 290px;
+@media (max-width: 360px) {
+  .searchoverlaytitle h1 {
+    font-size: 30px;
+    padding-top: 150px;
+  }
+  .blog-post-container .searchoverlaytitle h1 {
+    font-size: 26px;
+  }
+
+  .mission {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-top: 20px;
   }
 }
 
