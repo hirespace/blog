@@ -204,6 +204,8 @@ div.input-group-addon {
   line-height: 1.2;
   font-size: 42px;
   padding-top: 125px;
+  width: 60%;
+  margin:0 auto;
 }
  .blog-post-container .searchoverlay-author {
   color: #fff;
@@ -550,12 +552,6 @@ h3.header {
 }
 
 @media (max-width: 1199px) {
-  #carousel > .carousel-inner img {
-    max-width: 100% !important;
-  }
-  .post-tile {
-    height: 530px;
-  }
   .carousel-inner, .carousel-container {
     height: 400px;
   }
@@ -568,6 +564,13 @@ h3.header {
   }
   .blog-post-container .searchoverlaytitle h1 {
     padding-top: 125px;
+    width: 100%;
+  }
+  #carousel > .carousel-inner img {
+    max-width: 100% !important;
+  }
+  .post-tile {
+    height: 530px;
   }
 }
 @media (max-width: 992px) {
