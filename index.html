@@ -29,9 +29,12 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <ul class="nav navbar-nav navbar-right hidden-phone">
+            <ul class="nav navbar-nav navbar-right hidden-xs">
                 <li>
-                    <a href="https://hirespace.com" class="btn btn-primary upper">Visit HireSpace.com</a>
+                    <div class="input-group search">
+                        <input placeholder="Search blog posts" type="text" class="form-control" data-bind="value: searchWord" id="searchField">
+                        <a class="input-group-addon upper btn btn-default btn-primary">Go</a>
+                    </div>
                 </li>
             </ul>
           </div><!-- /.container-fluid -->
@@ -56,82 +59,17 @@
                 </div>
             </div>
         </div>
-        <a class="scroll-to-post" data-role="scroll-to-post" href="#blog-post"><span class="fa fa-angle-down"></span></a>
     </section>
 
-    <!-- Nav -->
-    <div class="nav-bg">
-        <div class="container">
-            <div class="row">
-                <nav>
-                    <div class="col-md-8">
-                        <ul class="list-inline nav-list upper clearfix">
-                            <li><a href="/tag/top-venues"><span class="hidden-xs">Top </span>Venues</a></li>
-                            <li><a href="/tag/reviews">Reviews</a></li>
-                            <li><a href="/tag/tips">Tips</a></li>
-                            <li class="hidden-xs">
-                                <a href="" data-toggle="dropdown">Event Type <i class="glyphicon glyphicon-chevron-down glyphicon-sm"></i></a>
-                                <ul class="dropdown-menu left-align" role="menu">
-                                    <li>
-                                        <a href="/tag/weddings">Weddings</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/conferences">Conferences</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/unusual">Unusual</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/parties">Parties</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/meetings">Meetings</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/launches">Launches</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/private-dining">Private Dining</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="hidden-xs">
-                                <a href="/tag/reviews" data-toggle="dropdown">City <i class="glyphicon glyphicon-chevron-down glyphicon-sm"></i></a>
-                                <ul class="dropdown-menu left-align" role="menu">
-                                    <li>
-                                        <a href="/tag/london">London</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/manchester">Manchester</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/birmingham">Birminghan</a>
-                                    </li>
-                                    <li>
-                                        <a href="/tag/liverpool">Liverpool</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="col-md-4 hidden-xs hidden-tablet">
-                    <div class="input-group search">
-                        <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
-                        <input placeholder="Type here to search" type="text" class="form-control" data-bind="value: searchWord" id="searchField">
-                        <a class="input-group-addon upper btn btn-default btn-primary">Go</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Content -->
-    <div class="container" id="blog-post">
+    <div class="container top-med-margin" id="blog-post">
         <div class="row">
             <div class="col-md-8 bottom-med-margin">
                 <div class="well">
                     <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="header">Recent articles</h3>
+                        </div>
                         <!-- each post -->
                         <!-- if first -->
                         <div class="col-md-12 bottom-med-margin">
@@ -147,7 +85,7 @@
                                     <h3><a href="blog-post1.html">Unique Venue Of The Month: Theatre Royal Drury Lane</a></h3>
                                     <p class="post-date">12th February 2015</p>
                                     <!-- 35 words -->
-                                    <h4>Theatre Royal Drury Lane is a phoenix. Amazingly, the first time it burned down was after the Great Fire Of London - it survived that fire. But six years later, it was burnt to a <a class="btn btn-sm btn-default" href="blog-post1.html">read more &raquo;</a></h4>
+                                    <h4>Theatre Royal Drury Lane is a phoenix. Amazingly, the first time it burned down was after the Great Fire Of London - it survived that fire. But six years later, it was burnt to a... <br/><a class="btn btn-sm btn-default btn-purple" href="blog-post1.html">read more &raquo;</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +101,7 @@
                                 <h3><a href="blog-post2.html">7 Summer Party Paradises In London</a></h3>
                                 <p class="post-date">11th February 2015</p>
                                 <!-- 20 words -->
-                                <h4>Picture it: Condensation is trickling down your fingers from the sin-tinted Pimms in your hand; your sunglasses wash everything aglow <a class="btn btn-sm btn-default" href="blog-post2.html">read more &raquo;</a></h4>
+                                <h4>Picture it: Condensation is trickling down your fingers from the sin-tinted Pimms in your hand; your sunglasses wash everything aglow...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post2.html">read more &raquo;</a></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 bottom-sm-margin">
@@ -176,7 +114,7 @@
                                 <h3><a href="blog-post3.html">Away Days: Marshmallow Towers or Serious Stuff?</a></h3>
                                 <p class="post-date">1st February 2015</p>
                                 <!-- 20 words -->
-                                <h4>Have you ever been on an away day? They range from the brilliant to bizarre, and from the totally pointless <a class="btn btn-sm btn-default" href="blog-post3.html">read more &raquo;</a></h4>
+                                <h4>Have you ever been on an away day? They range from the brilliant to bizarre, and from the totally pointless...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post3.html">read more &raquo;</a></h4>
                             </div>
                         </div>
 
@@ -190,7 +128,7 @@
                                 <h3><a href="blog-post1.html">Party at Belgraves</a></h3>
                                 <p class="post-date">22nd January 2015</p>
                                 <!-- 20 words -->
-                                <h4>Party at Belgraves. Have you been to Belgraves? It's not like most five star hotels. It's not garish, and it's <a class="btn btn-sm btn-default" href="blog-post1.html">read more &raquo;</a></h4>
+                                <h4>Party at Belgraves. Have you been to Belgraves? It's not like most five star hotels. It's not garish, and it's...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post1.html">read more &raquo;</a></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 bottom-sm-margin">
@@ -203,7 +141,7 @@
                                 <h3><a href="blog-post1.html">Nightclub Conferences: The Top 5</a></h3>
                                 <p class="post-date">14th January 2015</p>
                                 <!-- 20 words -->
-                                <h4>Conferences are changing. They may once have felt like a tediuos sequence of mildly relevant presentations, more to do with <a class="btn btn-sm btn-default" href="blog-post1.html">read more &raquo;</a></h4>
+                                <h4>Conferences are changing. They may once have felt like a tediuos sequence of mildly relevant presentations, more to do with...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post1.html">read more &raquo;</a></h4>
                             </div>
                         </div>
 
@@ -217,7 +155,7 @@
                                 <h3><a href="blog-post1.html">The Top 5 Venues In London For Bumping Into A Celeb</a></h3>
                                 <p class="post-date">7th January 2015</p>
                                 <!-- 20 words -->
-                                <h4>You can walk down the streets in Piccadilly, loiter around cafes in Chelsea, or pay entry to all the clubs <a class="btn btn-sm btn-default" href="blog-post1.html">read more &raquo;</a></h4>
+                                <h4>You can walk down the streets in Piccadilly, loiter around cafes in Chelsea, or pay entry to all the clubs...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post1.html">read more &raquo;</a></h4>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 bottom-sm-margin">
@@ -230,7 +168,7 @@
                                 <h3><a href="blog-post1.html">Unique Venue Of The Month: Kent House Knightsbridge</a></h3>
                                 <p class="post-date">7th January 2015</p>
                                 <!-- 20 words -->
-                                <h4>When twilight falls, and Harrods' twinkling lights flicker the streets alight, Knightsbridge is at its most glamorous. The district is <a class="btn btn-sm btn-default" href="blog-post1.html">read more &raquo;</a></h4>
+                                <h4>When twilight falls, and Harrods' twinkling lights flicker the streets alight, Knightsbridge is at its most glamorous. The district is...<br/><a class="btn btn-sm btn-default btn-purple" href="blog-post1.html">read more &raquo;</a></h4>
                             </div>
                         </div>
                     </div>
@@ -242,33 +180,9 @@
             </div>
 
             <div class="col-md-4">
-                <div class="well bottom-med-margin">
+                 <div class="well bottom-med-margin most-popular hidden-xs">
                     <h3 class="header">
-                        Connect with us
-                    </h3>
-                    <ul class="list-unstyled clearfix social-contacts">
-                        <li><a href="" class="awe-facebook"></a></li>
-                        <li><a href="" class="awe-twitter"></a></li>
-                        <li><a href="" class="awe-pinterest"></a></li>
-                        <li><a href="" class="awe-linkedin"></a></li>
-                        <li><a href="" class="awe-google-plus"></a></li>
-                        <li><a href="" class="awe-rss"></a></li>
-                    </ul>
-                </div>
-
-                <div class="well bottom-med-margin hidden-xs">
-                    <h3 class="header">
-                        Subscribe
-                    </h3>
-                    <div class="input-group subscribe">
-                        <input placeholder="Type your email address" type="text" class="form-control" data-bind="value: searchWord" id="searchField">
-                        <a class="input-group-addon upper btn btn-default btn-primary">Add</a>
-                    </div>
-                </div>
-
-                <div class="well bottom-med-margin most-popular hidden-xs">
-                    <h3 class="header">
-                        Most popular
+                        Most read
                     </h3>
                     <div class="post-tile" style="height: auto;">
                         <a style="display:block" href="">                  
@@ -295,9 +209,9 @@
 
                 <div class="well bottom-med-margin">
                     <h3 class="header">
-                        Popular categories
+                        Blog categories
                     </h3>
-                    <ul class="list-unstyled popular-list clearfix">
+                    <ul class="list-unstyled tags tags-purple clearfix">
                         <li>
                             <a href="/tag/weddings">#Weddings</a>
                         </li>
@@ -322,15 +236,39 @@
                     </ul>
                 </div>
 
+                <div class="well bottom-med-margin">
+                    <h3 class="header">
+                        Connect with us
+                    </h3>
+                    <ul class="list-unstyled clearfix social-contacts">
+                        <li><a href="" class="awe-facebook"></a></li>
+                        <li><a href="" class="awe-twitter"></a></li>
+                        <li><a href="" class="awe-pinterest"></a></li>
+                        <li><a href="" class="awe-linkedin"></a></li>
+                        <li><a href="" class="awe-google-plus"></a></li>
+                        <li><a href="" class="awe-rss"></a></li>
+                    </ul>
+                </div>
+
+                <div class="well bottom-med-margin hidden-xs">
+                    <h3 class="header">
+                        Subscribe
+                    </h3>
+                    <div class="input-group subscribe">
+                        <input placeholder="Type your email address" type="text" class="form-control" data-bind="value: searchWord" id="searchField">
+                        <a class="input-group-addon upper btn btn-default btn-primary">Add</a>
+                    </div>
+                </div>
+
+                <div class="bottom-med-margin">
+                    <a class="upper btn btn-primary btn-block btn-lg" href="http://hirespace.com">Visit HireSpace.com</a>
+                </div>
+
                 <div id="pinterest-widget" class="well bottom-med-margin hidden-xs">
                     <h3 class="header">
                         Hire Space on Pinterest
                     </h3>
                     <a data-pin-do="embedUser" href="https://www.pinterest.com/hirespace/"data-pin-scale-width="80" data-pin-scale-height="200" data-pin-board-width="400">Visit Hire Space's profile on Pinterest.</a>
-                </div>
-
-                <div class="bottom-med-margin visible-phone">
-                    <a class="upper btn btn-primary btn-block btn-lg" href="http://hirespace.com">Visit HireSpace.com</a>
                 </div>
 
             </div>
