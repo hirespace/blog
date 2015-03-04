@@ -252,6 +252,9 @@ div.input-group-addon {
 .post-tile .post-image {
   height: 250px;
   margin-bottom: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
 }
 .post-tile h3 {
   margin-top:-6px;
